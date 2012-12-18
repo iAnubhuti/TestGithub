@@ -10,4 +10,5 @@
 
 @interface ViewController : UIViewController
 @property(strong,nonatomic)IBOutlet UILabel *label;
+-(IBAction)click:(id)sender;
 @end

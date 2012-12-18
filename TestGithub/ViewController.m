@@ -13,13 +13,15 @@
 @end
 
 @implementation ViewController
-
+@synthesize label;
 - (void)viewDidLoad
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
 }
-
+-(IBAction)click:(id)sender{
+    label.text = @"yeppiee";
+}
 - (void)viewDidUnload
 {
     [super viewDidUnload];
